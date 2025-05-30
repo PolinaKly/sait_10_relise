@@ -1,0 +1,252 @@
+body {
+  background-color: rgba(150, 105, 86, 1);
+}
+
+header {
+  background: url("https://learn.logikaschool.com/uploads/student/4810719/6815c02f7f9fd.png")
+    no-repeat center center/cover;
+  text-align: center;
+  padding: 40px 20px;
+  color: white;
+}
+
+.logo {
+  color: white;
+  text-align: center;
+  font-family: Rhodium Libre;
+  font-size: 64px;
+}
+
+.link {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 5px solid rgba(214, 181, 136, 1);
+}
+
+.nav-link {
+  display: inline-block;
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+  font-weight: 200;
+  padding-top: 15px;
+  font-weight: bold;
+  font-family: Arsenal;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+
+.nav-link:hover {
+  transform: translateY(-10px);
+}
+
+.about-us {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Arsenal;
+}
+
+.text {
+  border-top: 5px solid rgba(214, 181, 136, 1);
+  border-right: 5px solid rgba(214, 181, 136, 1);
+  border-radius: 16px;
+  font-size: 26px;
+  padding: 10px;
+  transition: background-color 0.3s linear;
+}
+
+.text:hover {
+  background-color: rgba(170, 120, 99, 1);
+  transition: 0.3s linear;
+}
+
+.about-us h3 {
+  font-size: 36px;
+  margin-top: 5px;
+}
+
+.stravy {
+  font-family: Pacifico;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.dish-list {
+  position: relative;
+  padding: 20px;
+  margin-left: 35px;
+  margin-right: 35px;
+  background-color: rgba(183, 201, 162, 1);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.dish-list::before,
+.dish-list::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  background-color: rgba(183, 201, 162, 1);
+}
+
+.dish-list::before {
+  left: -25px;
+}
+
+.dish-list::after {
+  right: -25px;
+}
+
+.dish {
+  margin-top: 20px;
+  width: 325px;
+  height: 445px;
+  display: inline;
+  transition: box-shadow 0.3s linear;
+}
+
+.dish:hover {
+  transition: 0.5s linear;
+  box-shadow: 0px 0px 10px 5px rgb(148, 163, 130);
+}
+
+.dish h4 {
+  margin-top: 5px;
+  font-size: 31px;
+  font-family: Arsenal;
+}
+
+.ops {
+  font-family: Arsenal;
+  font-size: 20px;
+}
+
+.tsina {
+  font-weight: bold;
+  font-family: Arsenal;
+  font-size: 24px;
+}
+
+.d {
+  font-family: Arsenal;
+  font-size: 36px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+
+.coments {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-top: 5px solid rgba(214, 181, 136, 1);
+  border-right: 5px solid rgba(214, 181, 136, 1);
+  border-radius: 16px;
+}
+
+.vidguk {
+  display: inline;
+  width: 319px;
+  height: 373px;
+  background-color: rgba(205, 169, 150, 1);
+  padding-left: 20px;
+  margin-top: 20px;
+  font-family: Arsenal;
+}
+
+.guk-head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100x;
+  padding-top: 10px;
+}
+
+.user-info h5 {
+  /* це ім'я юсеру */
+  margin: 0;
+  font-size: 32px;
+  padding-left: 10px;
+}
+
+.date {
+  margin: 0;
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+.star {
+  margin-bottom: 10px;
+}
+
+.tekst {
+  margin-bottom: 100px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0px;
+  font-size: 26px;
+}
+
+.tekst:hover {
+  transition: 0.03s linear;
+  font-size: 27.5px;
+}
+
+footer {
+  font-family: Arsenal;
+  background-color: rgba(205, 169, 150, 1);
+}
+
+.wherefind {
+  font-size: 36px;
+  text-align: center;
+}
+
+.adresy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 40px; /* горизонтальний відступ */
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.adresy div {
+  font-weight: 400;
+  font-size: 37px;
+  flex: 1 1 150px;
+  margin-bottom: 20px;
+  transition: font-weight 0.5s linear;
+}
+.adresy div:hover {
+  transition: 0.5s linear;
+  font-weight: 600;
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  gap: 20px;
+}
+
+.icons img {
+  margin-bottom: 50px;
+}
+
+footer p {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}

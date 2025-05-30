@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: rgb(174, 161, 117);
+  color: #0b0808;
+}
+
+.header {
+  text-align: center;
+  padding: 10px;
+}
+
+.header-img {
+  width: 100px;
+  height: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: #cb8917;
+  gap: 40px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+.about {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  max-width: 400px;
+}
+
+.about-img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.catalog {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.product {
+  width: 250px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.product p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.reviews {
+  padding: 40px 40px;
+  text-align: center;
+}
+
+.review {
+  margin: 2px 0;
+}
+
+.review img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.location {
+  text-align: center;
+  padding: 30px;
+}
+
+.location img {
+  width: 550px;
+  margin: 20px 0;
+}
+
+.addresses p {
+  margin: 10px 0;
+}
+
+.footer {
+  background: #cb8917;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer .phone span {
+  color: rgb(222, 238, 222);
+  font-weight: bold;
+}
+
+.footer .socials {
+  text-align: right;
+}
+
+a:hover {
+  box-shadow: 0px 0px 10px 0 rgb(0, 0, 0);
+}
+
+.product p:hover {
+  transform: scale(1.5);
+  transition: 1s ease;
+}
+
+.a {
+  opacity: 0;
+  text-decoration: none;
+  color: #0b0808;
+  transition: opacity 0.2s ease;
+  font-size: 20px;
+  width: 20px;
+}
+
+.a:hover {
+  opacity: 1;
+  transition: 1s ease;
+}

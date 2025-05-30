@@ -1,0 +1,239 @@
+body {
+  font-family: sans-serif;
+}
+
+span {
+  color: black;
+}
+
+main img {
+  width: 200px;
+}
+
+nav a {
+  color: rgb(1, 1, 1);
+}
+
+.cars {
+  background-color: rgb(51, 167, 161);
+}
+
+.social {
+  background-color: #2e6c7a;
+}
+
+.Honda {
+  gap: 10px;
+}
+
+.coleksion {
+  padding-left: 30px;
+  padding-bottom: 30px;
+  font-size: 35px;
+}
+
+.background color {
+  background-image: url(https://learn.logikaschool.com/uploads/student/4810671/681b1ff288b32.png);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #5d4343;
+  color: #ffff;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url(https://learn.logikaschool.com/uploads/student/4810671/681b1ff288b32.png)
+    no-repeat center/cover;
+  padding: 20px;
+  height: 600px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.nav-links a {
+  color: blue;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 20px;
+  font-style: italic;
+  text-shadow: 1px 1px 2px black;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.logo img {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+
+.logo {
+  text-align: center;
+}
+
+.main-nav a {
+  color: #33a1ff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.highlight {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+}
+
+.highlight img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.highlight-text {
+  margin-left: 30px;
+  font-size: 1.5em;
+}
+
+.highlight-text .price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.cars {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px 20px;
+}
+
+.car {
+  display: flex;
+  background-color: #705050;
+  border-bottom: 3px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.2s linear;
+}
+
+.car img {
+  width: 40%;
+  border-radius: 20px;
+}
+
+.car-info {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.car-info h3 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.car-info ul {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #fffacd;
+}
+
+.social p {
+  text-align: center;
+  padding: 10px;
+}
+
+footer.contact {
+  background: #5d4343;
+  text-align: left;
+  padding: 20px;
+  color: #f0f0f0;
+}
+
+footer .social img {
+  display: inline-block;
+  justify-content: center;
+
+  margin: auto;
+  border-radius: 10px;
+}
+
+header a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:hover {
+  transition: 0.7s ease-out;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+header img {
+  width: 200px;
+}
+
+.price:hover {
+  transition: 0.7s;
+  text-decoration: underline #fffacd;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, white, gold);
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 3px 5px 10px black;
+  margin: 20px;
+  font-weight: bolder;
+  transition: 0.2s linear;
+}
+
+a:hover {
+  box-shadow: 3px 5px 10px gold;
+  transition: 0.2s linear;
+}
+
+.tesla {
+  transition: width 0.2s linear;
+  width: 300px;
+  transition: 0.2s linear;
+}
+
+.tesla:hover {
+  margin: 15px;
+  transform: scale(1.2);
+  transition: 0.2s linear;
+  border: 3px solid black;
+}
+
+.car:hover {
+  box-shadow: 3px 5px 10px black;
+  transition: 0.5s linear;
+}

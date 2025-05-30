@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #111;
+}
+
+nav {
+  margin: 0 20px;
+
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  justify-content: center;
+}
+
+nav a {
+  position: relative;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.item:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background: #f8f8f8;
+}
+.review img:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+.header-left button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  background: #444d52;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.header-left button:hover {
+  box-shadow: 3px 5px 10px 0 rgb(255, 213, 0);
+}
+
+.section-title {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 90%;
+  max-width: 1000px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.item img {
+  width: 300px;
+  object-fit: contain;
+}
+
+.description {
+  max-width: 600px;
+}
+
+.reviews {
+  text-align: center;
+  padding: 40px 0;
+  background: #f8f8f8;
+}
+
+.review {
+  display: inline-block;
+
+  margin: 0 20px;
+  max-width: 200px;
+}
+
+.review img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.review h1 {
+  text-align: center;
+}
+
+.about {
+  padding: 40px;
+  text-align: center;
+}
+
+footer {
+  background: #999;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+.socials img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.footer-logo {
+  width: 100px;
+}
+
+.logo {
+  text-align: center;
+}
